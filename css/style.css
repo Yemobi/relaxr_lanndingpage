@@ -1,0 +1,257 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #d3d3d3;
+	line-height: 1.5;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+* {
+	font-family:  'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+  }
+
+
+ div {
+	border: 0 solid black;
+	padding: 1px;
+
+}
+
+footer {
+	height: 200px;
+	background-color: #121212;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 90%;
+	text-align: center
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 500px;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 90%;
+}
+
+
+.benefits {
+	max-width: 90%;
+  	margin: 0 auto;
+  	width: 1024px;
+  	background-color: #f0efef;
+  	height: 420px;
+  	padding-top: 1px;
+}
+
+
+
+.testimonial {
+	max-width: 90%;
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	color: white;
+	font-size: light italic;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+
+.signup{
+	background-color: #f9e42e;
+	height: 90px;
+	margin: 0 auto;
+	width: 1024px;
+	max-width: 100%;
+}
+
+ h1 {
+	color: #f0efef;
+	font-weight: extra bold;
+	font-size: 200%;
+}
+
+h2 {
+	color: #f0efef;
+	font-weight: 400;
+	text-align: center;
+	font-size: 270%;
+
+
+}
+
+h3 {
+	margin-left: 50px;
+	font-weight: 600;
+	font-size: 165%;
+	color: #606161;
+
+}
+
+h5 {
+	font-weight: extra bold;
+	font-size: 170%;
+	margin-top: 11px;
+
+
+}
+
+
+
+
+
+.paragraph{
+
+	margin-left: 50px;
+	max-width: 500px;
+	color: #606161;
+	font-size: 20px;
+}
+
+ul {
+	list-style-position: inside;
+	font-weight: 300;
+	color: #606161;
+	margin-left: 70px;
+	line-height: 30px;
+	font-size: 20px;
+	max-width: 400px;
+}
+
+
+.button1 {
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #f9e52e;
+	text-align: center;
+	padding: 7px 40px;
+	margin: 3% 40%;
+}
+
+.button2 {
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #033048;
+	text-align: center;
+	padding: 7px 40px;
+	margin: 3% 40%;
+	color: white;
+	}
+
+
+.copy  {
+
+	text-align: center;
+	padding: 0px 162px;
+	font-style:  italic;
+	font-weight: 300; 
+	font-size: 30px;
+	margin: -37px auto;
+}
+
+
+.amanda  {
+  font-style: normal;   
+
+	
+
+}
+
+.container2{
+
+	padding: 110px;
+	max-width: 1024px;
+	height: 360px;
+
+}
+
+.container3 {
+  width: 1028px;
+  height: 50px;
+
+}
+
+
+
+
+
+
+footer {
+text-align: center;
+max-width: 90%
+height:200px;
+
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
